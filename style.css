@@ -1,0 +1,43 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.board {
+    margin: 8vh 8vw 8vh 8vw;
+    height: 84vh;
+    width:  84vw;
+    /* background-color: black;  */
+    display: flex;
+    flex-direction: column;
+}
+.row{
+    height: 12.5%;
+    width: 100%;
+    border: 1px solid black;
+    display: flex;
+}
+
+.box{
+    height: 100%;
+    width: 12.5%;
+    background-color: white;
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-around;
+}
+.pieceBox{
+    font-size: 3.2rem;
+    z-index: 2;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+#black{
+    color: rgb(17, 83, 117);
+}
+#white{
+    color: white;
+}
